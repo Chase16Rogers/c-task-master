@@ -1,0 +1,34 @@
+use datachase;
+-- CREATE TABLE lists
+-- (
+--   id INT NOT NULL AUTO_INCREMENT,
+--   name VARCHAR(255),
+--   creatorId VARCHAR(255),
+--   PRIMARY KEY (id),
+--   FOREIGN KEY (creatorId)
+--     REFERENCES profiles (id)
+--     ON DELETE CASCADE
+-- );
+-- CREATE TABLE tasks
+-- (
+  -- id INT AUTO_INCREMENT,
+  -- task VARCHAR(255),
+  -- listId INT,
+  -- creatorId VARCHAR(255),
+  -- done TINYINT,
+--   PRIMARY KEY (id),
+--   FOREIGN KEY (listId)
+--     REFERENCES lists (id)
+--     ON DELETE CASCADE,
+--   FOREIGN KEY (creatorId)
+--     REFERENCES profiles (id)
+--     ON DELETE CASCADE
+-- );
+-- CREATE TABLE profiles
+-- (
+--   id VARCHAR(255),
+--   email VARCHAR(255),
+--   name VARCHAR(255),
+--   picture VARCHAR(255),
+--   PRIMARY KEY (id)
+-- );
